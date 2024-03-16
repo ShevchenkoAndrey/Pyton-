@@ -42,7 +42,4 @@ while True:
         action = actions.pop(action_index)
         print(action)
     else:
-        print("Неверный выбор. Повторите попытку.")
-    continue_game = input("Продовжити? - ")
-    if continue_game.lower() != "так" or continue_game.lower() != "т":
-        print("                ")
+        print("")
